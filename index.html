@@ -8,7 +8,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
-        h1, h2, h3, p {
+        h1,
+        h2,
+        h3,
+        p {
             font-family: 'Comic Sans MS', sans-serif;
             text-align: center;
         }
@@ -16,6 +19,30 @@
         .col-centered {
             float: none;
             margin: 0 auto;
+        }
+
+        /* .video-container { */
+            /* width is set as 100% here. any width can be specified as per requirement */
+            /* width: 100%; */
+            /* padding-top: 56.25%; */
+            /* height: 0px; */
+            /* position: relative; */
+        /* } */
+
+        /* .video { */
+            /* width: 100%; */
+            /* height: 100%; */
+            /* position: absolute; */
+            /* top: 0; */
+            /* left: 0; */
+        /* } */
+
+                .video {
+            width: 100%;
+            /* height: 100%; */
+            /* position: absolute; */
+            /* top: 0; */
+            /* left: 0; */
         }
     </style>
 </head>
@@ -32,7 +59,9 @@
         <br>
         <div class="row">
             <div class="col-md-8 col-centered">
-                <p>ARMath is an educational Snapchat lens that teaches children about shapes, colors, and mathematics. Using real-world markers, the lens presents children with simple math equations and a legend that maps shapes and colors to numbers.</p>
+                <p>ARMath is an educational Snapchat lens that teaches children about shapes, colors, and mathematics.
+                    Using real-world markers, the lens presents children with simple math equations and a legend that
+                    maps shapes and colors to numbers.</p>
             </div>
             <br>
             <div class="col-md-8 col-centered">
@@ -41,14 +70,18 @@
             </div>
             <br>
             <div class="col-md-8 col-centered">
-                <p>Children have to determine which shape and color to reveal to the camera, and if they get it right, they are presented with the next question. The lens is fun, interactive, and a great way to learn about these subjects in an intuitive and engaging way.</p>
+                <p>Children have to determine which shape and color to reveal to the camera, and if they get it right,
+                    they are presented with the next question. The lens is fun, interactive, and a great way to learn
+                    about these subjects in an intuitive and engaging way.</p>
             </div>
         </div>
 
         <br>
         <div class="row">
             <div class="col-md-8 col-centered">
-                <p><a href="ARMaths_MarkerTemplate.pdf" target="_blank"><img src="pdf-download.png" alt="PDF Download" style="width:100%">Download the marker template here</a> print it out, cut out the markers, and fold them.</p>
+                <p><a href="ARMaths_MarkerTemplate.pdf" target="_blank"><img src="pdf-download.png" alt="PDF Download"
+                            style="width:100%">Download the marker template here</a> print it out, cut out the markers,
+                    and fold them.</p>
             </div>
         </div>
 
@@ -68,6 +101,21 @@
 
 
         <br>
+        <h2>Check ARMaths in action!</h2>
+
+        <br>
+        <div class="row">
+            <div class="col-md-6 col-centered">
+                <div class="video-container">
+                    <video class="video" controls>
+                        <source src="arm_demo.mp4" width="100%" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <br>
         <h2>Get started with ARMath today!</h2>
 
         <div class="row">
@@ -78,6 +126,8 @@
 
 
 
+
+
         <br>
         <div class="row">
             <div class="col-md-6 col-centered">
@@ -85,9 +135,9 @@
             </div>
         </div>
 
-        </div>
-        <br>
-        <p>Made with love... check out DevPost submission <a href="https://devpost.com/software/a-r-m-augmented-reality-maths" target="_blank">here</a></p>
+    </div>
+    <br>
+    <p>Made with love... check out DevPost submission <a href="https://devpost.com/software/a-r-m-augmented-reality-maths" target="_blank">here</a></p>
 
     </div>
 </body>
